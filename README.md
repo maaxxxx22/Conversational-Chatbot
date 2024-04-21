@@ -14,7 +14,7 @@ Features
     
 *   Integration with Pandorabot platform for efficient deployment
 
-    ![Screenshot 1](/main/Screenshots/screenshot1.png)
+    ![Screenshot 1](/Screenshots/screenshot1.png)
 
 
     ![Screenshot 2](/Screenshots/screenshot2.png)
