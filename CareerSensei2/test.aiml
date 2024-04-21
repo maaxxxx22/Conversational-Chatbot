@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>QUESTION</pattern>
+    <template>
+        <text>This is the first response.</text>
+        <link>
+            <text>WIKI</text>
+            <url>https://en.wikipedia.org/wiki/Web_development</url>
+        </link>
+        <br/>
+        <text>This is the second response.</text>
+    </template>
+    
+</category>
+</aiml>

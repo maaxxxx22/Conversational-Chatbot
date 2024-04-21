@@ -1,0 +1,31 @@
+<aiml version="2.0">
+
+    <!-- Link to greetings from separate AIML file -->
+    <topic name="Greetings">
+        <category>
+            <pattern>*</pattern>
+            <template><srai>greetings</srai></template>
+        </category>
+    </topic>
+
+    <!-- Button response choices after greetings -->
+    <category>
+        <pattern>*</pattern>
+        <template>What can I do for you?
+            <button>
+                <text>Show me top careers in computer science</text>
+                <postback>show top careers</postback>
+            </button>
+            <button>
+                <text>I need help selecting a career in computer science</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>
+
+
+
+
+

@@ -1,0 +1,72 @@
+<aiml version="2.0">
+
+    <!-- Greetings category -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi! It's great to see you here. I'm Career Sensei, ready to guide you through your career journey.
+            <br/>
+            <br/>
+            What can I do for you?
+            <button>
+                <text>Show me top careers in computer science</text>
+                <postback>begin</postback>
+            </button>
+            <button>
+                <text>I need help selecting a career in computer science</text>
+                <postback>begin</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>GOOD AFTERNOON</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>GOOD EVENING</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>YO</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>WHAT'S UP</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>HEY THERE</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>GOOD DAY</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <!-- Default response -->
+    <category>
+        <pattern>*</pattern>
+        <template>Sorry, I didn't understand. Can you please choose one of the provided options?</template>
+    </category>
+
+</aiml>

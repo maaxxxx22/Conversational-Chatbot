@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>explore top careers</pattern>
+        <template>Great! Here are some of the top careers in Computer Science:
+            <button>
+                <text>Software Engineer</text>
+                <postback>software engineer</postback>
+            </button>
+            <button>
+                <text>Data Scientist</text>
+                <postback>data scientist</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cybersecurity analyst</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>web developer</postback>
+            </button>
+            <button>
+                <text>IT Project Manager</text>
+                <postback>it project manager</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

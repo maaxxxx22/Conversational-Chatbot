@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>begin</pattern>
+        <template>
+            Welcome to the world of possibilities in Computer Science! Let's find the right career path for you. Are you interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

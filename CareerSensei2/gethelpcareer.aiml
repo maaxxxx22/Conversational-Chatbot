@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- Get help selecting a career category -->
+    <category>
+        <pattern>get help career</pattern>
+        <template>To assist you in exploring career paths in Computer Science, I'll ask you a few questions.
+            <br/><br/>
+            Are you passionate about design but find programming challenging?
+            <button>
+                <text>Yes</text>
+                <postback>design yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>design no</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Design Yes category -->
+    <category>
+        <pattern>design yes</pattern>
+        <template>Have you worked with web applications or APIs before?
+            <button>
+                <text>Yes</text>
+                <postback>web applications yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>web applications no</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Design No category -->
+    <category>
+        <pattern>design no</pattern>
+        <template>Would you rather work in a development environment?
+            <button>
+                <text>Yes</text>
+                <postback>development yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>development no</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Web Applications Yes category -->
+    <category>
+        <pattern>web applications yes</pattern>
+        <template>Given your familiarity with web applications, you might find career opportunities in roles such as Web Developer or UX Designer.
+            <br/>
+            <br/>
+            To learn more about Web Development, you can visit the<link><text>Web Development</text><url>https://en.wikipedia.org/wiki/Web_development</url>
+        </link> Wikipedia page.
+            <br/>
+            <br/>
+            To learn more about UX Design, you can visit the <link><text>UX Design</text><url>https://en.wikipedia.org/wiki/User_experience_design</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Web Applications No category -->
+    <category>
+        <pattern>web applications no</pattern>
+        <template>Since you lack experience with web applications, let's explore other career options:
+            <br/><br/>
+            Do you enjoy working with data and analyzing trends?
+            <button>
+                <text>Yes</text>
+                <postback>data yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>data no</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Data Yes category -->
+    <category>
+        <pattern>data yes</pattern>
+        <template>Since you enjoy working with data and analyzing trends, you might want to consider a career as a Data Scientist.
+            <br/>
+            <br/>
+            To learn more about Data Science, you can visit the <link><text>Data Science</text><url>https://en.wikipedia.org/wiki/Data_science</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Data No category -->
+    <category>
+        <pattern>data no</pattern>
+        <template>Since you don't enjoy working with data analysis, you might want to explore a career as a Software Engineer.
+            <br/>
+            <br/>
+            To learn more about Software Engineering, you can visit the <link><text>Software Engineering</text><url>https://en.wikipedia.org/wiki/Software_engineering</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Development Yes category -->
+    <category>
+        <pattern>development yes</pattern>
+        <template>Considering your preference for working in a development environment, let's further refine your options:
+            <br/><br/>
+            Do you enjoy managing projects and coordinating resources?
+            <button>
+                <text>Yes</text>
+                <postback>Yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>No</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Yes category -->
+    <category>
+        <pattern>Yes</pattern>
+        <template>With your interest in managing projects, you might be suited for a career as an IT Project Manager.
+            <br/>
+            <br/>
+            To learn more about IT Project Management, you can visit the <link><text>Project Management</text><url>https://en.wikipedia.org/wiki/Project_management</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- No category -->
+    <category>
+        <pattern>No</pattern>
+        <template>Since you prefer not to manage projects, you might be more interested in roles focused on software development, such as Software Engineer.
+            <br/>
+            <br/>
+            To learn more about Software Engineering, you can visit the <link><text>Software Engineering</text><url>https://en.wikipedia.org/wiki/Software_engineering</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Development No category -->
+    <category>
+        <pattern>development no</pattern>
+        <template>Since you prefer not to work in a development environment, let's explore other career options:
+            <br/><br/>
+            Do you have an interest in cybersecurity?
+            <button>
+                <text>Yes</text>
+                <postback>cybersecurity yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cybersecurity no</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Cybersecurity Yes category -->
+    <category>
+        <pattern>cybersecurity yes</pattern>
+        <template>Considering your interest in cybersecurity, you might want to explore a career as a Cybersecurity Analyst.
+            <br/>
+            <br/>
+            To learn more about Cybersecurity, you can visit the <link><text>Computer security</text><url>https://en.wikipedia.org/wiki/Computer_security</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Cybersecurity No category -->
+    <category>
+        <pattern>cybersecurity no</pattern>
+        <template>Since you don't have an interest in cybersecurity, you might want to consider a career as a Database Administrator.
+            <br/>
+            <br/>
+            To learn more about Database Administration, you can visit the <link><text>Database Administration</text><url>https://en.wikipedia.org/wiki/Database_administration</url></link> Wikipedia page.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>

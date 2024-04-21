@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Categories for detailed explanations of each career -->
+    
+    <!-- Software Engineer category -->
+    <category>
+        <pattern>software engineer</pattern>
+        <template>
+            Software Engineer is a dynamic career that involves designing, developing, and optimizing software solutions to address complex challenges. It's perfect for individuals who enjoy problem-solving and innovation.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+    
+    <!-- Data Scientist category -->
+    <category>
+        <pattern>data scientist</pattern>
+        <template>
+            Data Scientist is a rapidly growing field that focuses on analyzing large datasets to extract insights and inform decision-making. It requires strong analytical skills and knowledge of programming languages like Python and R.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+    
+    <!-- Cybersecurity Analyst category -->
+    <category>
+        <pattern>cybersecurity analyst</pattern>
+        <template>
+            Cybersecurity Analyst plays a crucial role in protecting organizations from cyber threats by implementing security measures, monitoring systems for vulnerabilities, and responding to incidents. It's an exciting career for those passionate about technology and security.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>  
+    </category>
+    
+    <!-- Web Developer category -->
+    <category>
+        <pattern>web developer</pattern>
+        <template>
+            Web Developer specializes in creating and maintaining websites and web applications. They work with programming languages like HTML, CSS, and JavaScript to build user-friendly and visually appealing interfaces.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+    
+    <!-- IT Project Manager category -->
+    <category>
+        <pattern>it project manager</pattern>
+        <template>
+            IT Project Manager oversees the planning, execution, and completion of IT projects within an organization. They coordinate resources, manage timelines, and ensure projects are delivered on time and within budget.
+            <br/>
+            <br/>
+            Are you still interested in exploring top careers or do you need help in selecting a career?
+            <button>
+                <text>Explore top careers</text>
+                <postback>explore top careers</postback>
+            </button>
+            <button>
+                <text>Get help selecting a career</text>
+                <postback>get help career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
