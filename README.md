@@ -14,11 +14,11 @@ Features
     
 *   Integration with Pandorabot platform for efficient deployment
 
-    <img src="Screenshots/screenshot1.PNG" alt="Screenshot 1" width="400" height="300">
-
-
-    ![Screenshot 2](Screenshots/screenshot2.png)
-
+<div style="display: flex; gap: 100px;">
+    <img src="Screenshots/screenshot1.PNG" alt="Screenshot 1" width="125" height="225">
+    <img src="Screenshots/screenshot2.PNG" alt="Screenshot 1" width="125" height="225">
+</div>
+    
     
 
 Getting Started
