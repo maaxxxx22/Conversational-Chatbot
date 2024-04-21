@@ -45,9 +45,9 @@ Your feedback is valuable! If you encounter any issues or have suggestions for i
 Contributors
 ------------
 
-*   [Your Name](https://github.com/yourusername)
+*   [Your Name](https://github.com/maaxxxx22))
     
-*   [Contributor Name](https://github.com/contributorusername)
+
     
 
 License
