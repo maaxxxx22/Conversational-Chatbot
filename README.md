@@ -32,6 +32,15 @@ Getting Started
 3.  Customize the chatbot responses and questions to suit your needs.
     
 4.  Share the chatbot link with users to start exploring career options!
+
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;**To run the chatbot locally, follow these steps:**
+
+1. Clone this repository to your local machine.
+
+2. Open the project folder in your preferred code editor.
+
+3. Run the chatbot application using the provided scripts.
     
 
 Usage
