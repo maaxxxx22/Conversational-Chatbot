@@ -1,8 +1,8 @@
 CareerSensei Chatbot
 ====================
 
-The creation of this chatbot was part of a project for the C951 Introduction to Artificial Intelligence course at WGU.This chatbot project specifically aimed to showcase the application of natural language processing and machine learning techniques to assist users in exploring career options in computer science.
-Welcome to CareerSensei, your personal career exploration assistant! This chatbot is designed to help you discover exciting career opportunities in the field of computer science.
+The creation of this chatbot was part of a project for the C951 Introduction to Artificial Intelligence course at WGU. This chatbot project specifically aimed to showcase the application of natural language processing and machine learning techniques to assist users in exploring career options in computer science.<br>
+CareerSensei is a personal career exploration assistant. This chatbot is designed to help students discover exciting career opportunities in the field of computer science.
 
 Features
 --------
