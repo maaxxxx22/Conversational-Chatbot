@@ -33,7 +33,6 @@ Getting Started
     
 4.  Share the chatbot link with users to start exploring career options!
 
-   
    &nbsp;&nbsp;&nbsp;&nbsp;**To run the chatbot locally, follow these steps:**
 
 1. Clone this repository to your local machine.
@@ -61,7 +60,7 @@ Your feedback is valuable! If you encounter any issues or have suggestions for i
 Contributors
 ------------
 
-*   [Your Name](https://github.com/maaxxxx22))
+*   [Okunta Braide](https://github.com/maaxxxx22)
     
 
     
