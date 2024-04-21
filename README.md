@@ -15,10 +15,10 @@ Features
 *   Integration with Pandorabot platform for efficient deployment
 
   ![Screenshot 1](/Screenshots/careersensei scrennshot 1.png)
-*Caption for Screenshot 1*
+
 
 ![Screenshot 2](/Screenshots/careersensei scrennshot 2.png)
-*Caption for Screenshot 2*
+
     
 
 Getting Started
